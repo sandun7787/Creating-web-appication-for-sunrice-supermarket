@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huawei</title>
+</head>
+<body>
+    <h2>Java script conts</h2>
+    <p>Declared a constant object does not make the object property unchangeble</p>
+    <p id="demo"></p>
+    <script>
+        //careat object
+        const car={type:"fiat",model:"657",color:"White"};
+        //chnage property
+        car.color="black";
+        //add property
+        car.owner="johons";
+        //Display the property
+        document.getElementById("demo").innerHTML="car owner is"+car.owner;
+    </script>
+</body>
+</html>
