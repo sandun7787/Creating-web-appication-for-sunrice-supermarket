@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesiing</title>
+</head>
+<body>
+    <h2>JavaScript Objects</h2>
+    <p>There are two different ways to access an object property</p>
+    <p id="demo"></p>
+    <script>
+        const person={
+            fName:"jhone",
+            lName:"doe",
+            id:7584,
+
+        };
+        document.getElementById("demo").innerHTML=person["fName"]+""+person["lName"]
+    </script>
+</body>
+</html>
