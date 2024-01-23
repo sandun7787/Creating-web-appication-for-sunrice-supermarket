@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>java script object</h1>
+    <p>An object method is a function definition, stored as a property value</p>
+    <p id="demo"></p>
+    <script>
+        const person={
+            fName:"sandun",
+            lName:"warnasooriya",
+            id:7584,
+            fullName:function(){
+                return this.fName+"fuck you"+this.lName;
+            }
+
+        };
+        document.getElementById("demo").innerHTML=person.fullName();
+    </script>
+</body>
+</html>
